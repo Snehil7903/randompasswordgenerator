@@ -1,0 +1,96 @@
+body{
+    height: 97.7vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
+    background: url(depositphotos_143887777-stock-illustration-internet-security-background-vector.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    padding: 10px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(20px);
+}
+
+#output{
+    border: 2px solid;
+    padding: 20px;
+    font-size: medium;
+    color: rgb(246, 255, 0);
+    box-shadow: 2px 2px 2px rgb(47, 255, 0), -2px -2px 2px rgb(47, 255, 0);
+    border: none;
+    border-radius: 25px;
+    backdrop-filter: blur(20px);
+    background: transparent;
+    height: 200px;
+    width: 250px;
+    overflow-wrap: break-word;
+    overflow-y: auto;
+
+}
+#label{
+    color: rgb(4, 255, 0);
+    text-shadow: 2px 2px 20px;
+    backdrop-filter: blur(20px);
+    border-radius: 25px;
+    background: transparent;
+    width: 250px;
+
+}
+
+label{
+    color: rgb(255, 0, 0);
+    font-weight: bolder;
+    backdrop-filter: blur(20px);
+    border-radius: 25px;
+    margin: 5px;
+}
+
+#digits{
+    text-align: center;
+    font-weight: bold;
+    height: 1em;
+    caret-color: red;
+    color: blue;
+    border: none;
+    border-radius: 25px;
+    padding: 5px;
+    font-size: large;
+    box-shadow: 2px 2px 10px;
+}
+
+#submit{
+        border: none;
+        height: 2em;
+        width: 5em;
+        background-color: gold;
+        border-radius: 25px;
+        box-shadow: 2px 2px 10px gray;
+        cursor: pointer;
+        font-weight: bolder;
+        margin: 10px;
+}
+
+.checkbox{
+    align-self:flex-start;
+    margin-left: 18px;
+    cursor: pointer;
+}
+
+#submit:hover{
+    background-color:hsl(51, 100%, 60%);
+
+}
+#submit:active{
+    background-color: hsl(51, 100%, 40%);
+}
